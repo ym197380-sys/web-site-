@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الشافعي | أزياء ستريت وير — قطن إسفنجي</title>
+  <meta name="description" content="متجر الشافعي للملابس الشبابية — تشكيلة قطن إسفنجي فاخرة: Off-White و بريطانيا. العنوان: 16 داير الناحية بجوار مقهى الزعبليطي أمام محمدين." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- شريط إعلاني علوي باللون البرتقالي -->
+  <div class="top-banner">
+    <div class="container top-banner-inner">
+      <span class="pulse-dot" aria-hidden="true"></span>
+      <span>🔥 متاح الآن في فرع الشافعي — خامة قطن إسفنجي تقيلة ومميزة | 📍 16 داير الناحية بجوار مقهى الزعبليطي أمام محمدين</span>
+    </div>
+  </div>
+
+  <!-- الهيدر / القائمة الرئيسية -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand" aria-label="الرئيسية - الشافعي">
+        <span class="brand-mark">ش</span>
+        <div class="brand-text">
+          <span class="brand-name">الشافعي</span>
+          <span class="brand-sub">AL-SHAFEI WEAR</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="التنقل الرئيسي">
+        <a href="#hero">الرئيسية</a>
+        <a href="#collection">المنتجات</a>
+        <a href="#fabric">الخامة والجودة</a>
+        <a href="#location">العنوان</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#collection" class="btn btn-outline btn-sm hide-mobile">تسوق الآن</a>
+        <button class="cart-btn" id="openCartBtn" type="button" aria-label="فتح سلة المشتريات">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-label">السلة</span>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- قسم الهيرو -->
+    <section class="hero" id="hero">
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-tag">NEW DROP</span>
+            <span>إصدار حصري في متجر الشافعي</span>
+          </div>
+
+          <h1 class="hero-title">
+            ستايل الشارع بلمسة
+            <span class="text-orange">الشافعي</span>
+            الفخمة
+          </h1>
+
+          <p class="hero-desc">
+            تشكيلة سويت شيرت منتقاة بعناية من أجود خامات <strong>القطن الإسفنجي</strong> المريح والدافئ.
+            قطعتان فقط بتصميمات عصرية جريئة: <strong>Off-White الأبيض</strong> و<strong>بريطانيا الأسود</strong>.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#collection" class="btn btn-primary btn-lg">
+              <span>تصفح القطعتين</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+            </a>
+            <a href="#location" class="btn btn-ghost btn-lg">
+              <span>زورنا في المحل</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">قطن إسفنجي أصلي</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-value">450 - 650</span>
+              <span class="stat-label">جنيه مصري فقط</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-value">قطعتين</span>
+              <span class="stat-label">إصدار محدود</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-showcase" aria-label="عرض سريع للقطعتين">
+          <div class="showcase-card showcase-white">
+            <div class="showcase-img-wrap">
+              <img src="images/off-white.jpg" alt="سويت شيرت Off-White أبيض قطن إسفنجي" />
+            </div>
+            <div class="showcase-info">
+              <span class="showcase-tag">OFF-WHITE</span>
+              <span class="showcase-price">650 ج.م</span>
+            </div>
+          </div>
+
+          <div class="showcase-card showcase-black">
+            <div class="showcase-img-wrap">
+              <img src="images/britain-black.jpg" alt="سويت شيرت بريطانيا أسود قطن إسفنجي" />
+            </div>
+            <div class="showcase-info">
+              <span class="showcase-tag">بريطانيا</span>
+              <span class="showcase-price">450 ج.م</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- شريط متحرك / فاصل برتقالي -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span>★ الشافعي ستور</span>
+        <span>•</span>
+        <span>خامة قطن إسفنجي</span>
+        <span>•</span>
+        <span>OFF-WHITE — 650 ج.م</span>
+        <span>•</span>
+        <span>بريطانيا — 450 ج.م</span>
+        <span>•</span>
+        <span>16 داير الناحية بجوار مقهى الزعبليطي أمام محمدين</span>
+        <span>•</span>
+        <span>★ الشافعي ستور</span>
+        <span>•</span>
+        <span>خامة قطن إسفنجي</span>
+        <span>•</span>
+        <span>OFF-WHITE — 650 ج.م</span>
+        <span>•</span>
+        <span>بريطانيا — 450 ج.م</span>
+        <span>•</span>
+      </div>
+    </div>
+
+    <!-- قسم المنتجات (القطعتان فقط) -->
+    <section class="collection" id="collection">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">التشكيلة المتوفرة</span>
+          <h2 class="section-title">القطعتين المتاحين في <span class="text-orange">الشافعي</span></h2>
+          <p class="section-subtitle">اختر المقاس المناسب وأضف القطعة إلى سلة المشتريات أو احجزها للاستلام من الفرع</p>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <!-- المنتج الأول: الأبيض Off-White -->
+          <article class="product-card" data-product-id="off-white">
+            <div class="product-media">
+              <span class="product-badge badge-orange">الأكثر طلباً</span>
+              <span class="product-color-pill pill-white">لون أبيض</span>
+              <img src="images/off-white.jpg" alt="سويت شيرت Off-White أبيض خامة قطن إسفنجي" loading="lazy" />
+              <button class="quick-view-btn" type="button" data-quick-view="off-white">
+                معاينة سريعة
+              </button>
+            </div>
+
+            <div class="product-body">
+              <div class="product-meta-row">
+                <span class="product-brand">نوع: Off-White</span>
+                <span class="product-fabric">خامة: قطن إسفنجي</span>
+              </div>
+
+              <h3 class="product-title">سويت شيرت Off-White أبيض</h3>
+              <p class="product-desc">
+                سويت شيرت أبيض فاخر بتصميم Off-White المميز مع لوجو الأسهم البارز على الصدر والخطوط المائلة على الكم، من خامة قطن إسفنجي ناعمة وثابتة.
+              </p>
+
+              <div class="size-selector">
+                <span class="size-label">اختر المقاس:</span>
+                <div class="size-options" role="group" aria-label="مقاسات سويت شيرت Off-White">
+                  <button type="button" class="size-btn" data-size="M">M</button>
+                  <button type="button" class="size-btn active" data-size="L">L</button>
+                  <button type="button" class="size-btn" data-size="XL">XL</button>
+                  <button type="button" class="size-btn" data-size="XXL">XXL</button>
+                </div>
+              </div>
+
+              <div class="product-footer">
+                <div class="price-box">
+                  <span class="price-current">650</span>
+                  <span class="price-currency">جنيه</span>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart-btn" data-id="off-white">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+                  <span>أضف للسلة</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- المنتج الثاني: الأسود بريطانيا -->
+          <article class="product-card" data-product-id="britain-black">
+            <div class="product-media">
+              <span class="product-badge badge-dark">سعر مميز</span>
+              <span class="product-color-pill pill-black">لون أسود</span>
+              <img src="images/britain-black.jpg" alt="سويت شيرت بريطانيا أسود خامة قطن إسفنجي" loading="lazy" />
+              <button class="quick-view-btn" type="button" data-quick-view="britain-black">
+                معاينة سريعة
+              </button>
+            </div>
+
+            <div class="product-body">
+              <div class="product-meta-row">
+                <span class="product-brand">نوع: بريطانيا</span>
+                <span class="product-fabric">خامة: قطن إسفنجي</span>
+              </div>
+
+              <h3 class="product-title">سويت شيرت بريطانيا أسود</h3>
+              <p class="product-desc">
+                سويت شيرت أسود أنيق بتصميم علم بريطانيا المرصع بالكريستال اللامع عالي الثبات، مصنوع من خامة قطن إسفنجي تقيلة ومريحة للخروجات اليومية.
+              </p>
+
+              <div class="size-selector">
+                <span class="size-label">اختر المقاس:</span>
+                <div class="size-options" role="group" aria-label="مقاسات سويت شيرت بريطانيا">
+                  <button type="button" class="size-btn" data-size="M">M</button>
+                  <button type="button" class="size-btn active" data-size="L">L</button>
+                  <button type="button" class="size-btn" data-size="XL">XL</button>
+                  <button type="button" class="size-btn" data-size="XXL">XXL</button>
+                </div>
+              </div>
+
+              <div class="product-footer">
+                <div class="price-box">
+                  <span class="price-current">450</span>
+                  <span class="price-currency">جنيه</span>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart-btn" data-id="britain-black">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+                  <span>أضف للسلة</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الخامة والمميزات -->
+    <section class="fabric-section" id="fabric">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">لماذا الشافعي؟</span>
+          <h2 class="section-title">قوة <span class="text-orange">القطن الإسفنجي</span> في كل تفصيلة</h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🧵</div>
+            <h3>خامة قطن إسفنجي فاخرة</h3>
+            <p>نسيج سميك وناعم يحافظ على شكل السويت شيرت ولا ينكمش مع الغسيل المتكرر.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">✨</div>
+            <h3>تقفيل وتفاصيل متقنة</h3>
+            <p>تطريز Off-White البارز ولمعان فصوص علم بريطانيا بجودة عالية تلفت الأنظار.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔥</div>
+            <h3>ستايل شبابي عملي</h3>
+            <p>قصّة مريحة تناسب جميع الإطلالات الكاجوال والستريت وير طوال اليوم.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🏷️</div>
+            <h3>أسعار واضحة ومباشرة</h3>
+            <p>650 جنيه للقطعة Off-White البيضاء و450 جنيه لقطعة بريطانيا السوداء.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم العنوان والزيارة -->
+    <section class="location-section" id="location">
+      <div class="container">
+        <div class="location-card">
+          <div class="location-content">
+            <span class="section-kicker">تشرفنا زيارتك</span>
+            <h2 class="location-title">عنوان متجر <span class="text-orange">الشافعي</span></h2>
+            <p class="location-address-text" id="storeAddress">
+              16 داير الناحية — بجوار مقهى الزعبليطي — أمام محمدين
+            </p>
+            <p class="location-note">
+              يمكنك المعاينة والاستلام مباشرة من المحل أو حجز القطعة أونلاين من خلال السلة وسنجهزها لك فوراً.
+            </p>
+
+            <div class="location-actions">
+              <button type="button" class="btn btn-primary" id="copyAddressBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>نسخ العنوان</span>
+              </button>
+              <a href="https://wa.me/201152798726" target="_blank" rel="noopener" class="btn btn-outline">
+                <span>واتساب 1: 01152798726</span>
+              </a>
+              <a href="https://wa.me/201130837894" target="_blank" rel="noopener" class="btn btn-outline">
+                <span>واتساب 2: 01130837894</span>
+              </a>
+              <a href="#collection" class="btn btn-ghost">اطلب قطعتك الآن</a>
+            </div>
+          </div>
+
+          <div class="location-visual">
+            <div class="map-pin-box">
+              <div class="pin-circle">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="pin-details">
+                <strong>فرع الشافعي الرئيسي</strong>
+                <span>16 داير الناحية</span>
+                <span>بجوار مقهى الزعبليطي • أمام محمدين</span>
+                <div class="hours-pill">مفتوح يومياً: 12 ظهراً — 12 منتصف الليل</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">ش</span>
+        <div>
+          <strong>الشافعي للملابس</strong>
+          <p>16 داير الناحية بجوار مقهى الزعبليطي أمام محمدين</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#collection">Off-White (650 ج.م)</a>
+        <a href="#collection">بريطانيا (450 ج.م)</a>
+        <a href="https://wa.me/201152798726" target="_blank" rel="noopener">واتساب: 01152798726</a>
+        <a href="https://wa.me/201130837894" target="_blank" rel="noopener">واتساب: 01130837894</a>
+        <a href="#location">العنوان</a>
+      </div>
+      <p class="footer-copy">© 2026 متجر الشافعي — جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <!-- درج سلة المشتريات -->
+  <div class="drawer-backdrop" id="cartBackdrop" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات" aria-hidden="true">
+    <div class="drawer-header">
+      <h3>سلة المشتريات <span class="text-orange" id="drawerItemCount">(0)</span></h3>
+      <button type="button" class="icon-close-btn" id="closeCartBtn" aria-label="إغلاق السلة">✕</button>
+    </div>
+
+    <div class="drawer-body" id="cartItemsContainer">
+      <div class="empty-cart" id="emptyCartState">
+        <div class="empty-icon">🛍️</div>
+        <p>سلة المشتريات فارغة حالياً</p>
+        <span>اختر قطعة من سويت شيرت الشافعي وأضفها للسلة</span>
+      </div>
+    </div>
+
+    <div class="drawer-footer" id="cartFooter" hidden>
+      <div class="summary-row">
+        <span>الإجمالي</span>
+        <strong class="total-price" id="cartTotal">0 ج.م</strong>
+      </div>
+      <button type="button" class="btn btn-primary btn-block" id="proceedCheckoutBtn">
+        إتمام الطلب الآن
+      </button>
+      <button type="button" class="btn btn-ghost btn-block btn-sm" id="clearCartBtn">
+        تفريغ السلة
+      </button>
+    </div>
+  </aside>
+
+  <!-- نافذة المعاينة السريعة -->
+  <div class="modal-backdrop" id="quickViewModal" aria-hidden="true">
+    <div class="modal-dialog quick-view-dialog" role="dialog" aria-modal="true" aria-labelledby="qvTitle">
+      <button type="button" class="icon-close-btn modal-close" id="closeQuickViewBtn" aria-label="إغلاق المعاينة">✕</button>
+      <div class="qv-grid">
+        <div class="qv-image-wrap">
+          <img id="qvImage" src="" alt="" />
+        </div>
+        <div class="qv-details">
+          <span class="badge-tag" id="qvBrand"></span>
+          <h3 id="qvTitle"></h3>
+          <p class="qv-price" id="qvPrice"></p>
+          <p class="qv-fabric" id="qvFabric"></p>
+          <p class="qv-desc" id="qvDesc"></p>
+          <div class="size-selector">
+            <span class="size-label">اختر المقاس:</span>
+            <div class="size-options" id="qvSizes">
+              <button type="button" class="size-btn" data-size="M">M</button>
+              <button type="button" class="size-btn active" data-size="L">L</button>
+              <button type="button" class="size-btn" data-size="XL">XL</button>
+              <button type="button" class="size-btn" data-size="XXL">XXL</button>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-block" id="qvAddBtn">أضف إلى السلة</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- نافذة إتمام الطلب -->
+  <div class="modal-backdrop" id="checkoutModal" aria-hidden="true">
+    <div class="modal-dialog checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button type="button" class="icon-close-btn modal-close" id="closeCheckoutBtn" aria-label="إغلاق">✕</button>
+      <h3 id="checkoutTitle">تأكيد طلبك من <span class="text-orange">الشافعي</span></h3>
+      <p class="checkout-sub">سجل بياناتك وسيتم تجهيز طلبك فوراً</p>
+
+      <form id="checkoutForm" class="checkout-form">
+        <div class="form-group">
+          <label for="customerName">الاسم بالكامل</label>
+          <input type="text" id="customerName" required placeholder="مثال: أحمد محمد" />
+        </div>
+        <div class="form-group">
+          <label for="customerPhone">رقم الهاتف</label>
+          <input type="tel" id="customerPhone" required placeholder="01xxxxxxxxx" />
+        </div>
+        <div class="form-group">
+          <label for="deliveryType">طريقة الاستلام</label>
+          <select id="deliveryType">
+            <option value="pickup">استلام من المحل (16 داير الناحية بجوار مقهى الزعبليطي أمام محمدين)</option>
+            <option value="delivery">توصيل للمنزل</option>
+          </select>
+        </div>
+        <div class="form-group" id="deliveryAddressGroup" hidden>
+          <label for="customerAddress">عنوان التوصيل</label>
+          <input type="text" id="customerAddress" placeholder="اكتب عنوانك بالتفصيل" />
+        </div>
+
+        <div class="form-group">
+          <label for="whatsappTarget">إرسال الطلب إلى رقم واتساب</label>
+          <select id="whatsappTarget">
+            <option value="201152798726">الرقم الأول: 01152798726</option>
+            <option value="201130837894">الرقم الثاني: 01130837894</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="paymentMethod">طريقة الدفع</label>
+          <select id="paymentMethod">
+            <option value="cash">الدفع عند الاستلام (كاش)</option>
+            <option value="instapay">التحويل عبر إنستا باي (InstaPay)</option>
+          </select>
+        </div>
+
+        <div class="instapay-box" id="instapayBox" hidden>
+          <div class="instapay-header">
+            <span class="badge-tag">INSTAPAY</span>
+            <strong>التحويل عبر إنستا باي</strong>
+          </div>
+          <p class="instapay-desc">
+            إجمالي الطلب المطلوب: <strong class="text-orange" id="instapayAmount">0 ج.م</strong>
+          </p>
+          <p class="instapay-note" style="margin-top: 0;">
+            عند الضغط على «تأكيد وإرسال الطلب على واتساب» سيتم تحويلك لرسالة الطلب، وسنرسل لك حساب إنستا باي لإتمام التحويل وتأكيد الأوردر فوراً.
+          </p>
+          <div class="form-group" style="margin-top: 10px;">
+            <label for="instapayRef">ملاحظة أو مرجع التحويل (اختياري)</label>
+            <input type="text" id="instapayRef" placeholder="مثال: اسم حسابك على إنستا باي" />
+          </div>
+        </div>
+
+        <div class="checkout-summary" id="checkoutSummary"></div>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg">تأكيد وإرسال الطلب على واتساب</button>
+      </form>
+
+      <div class="order-success" id="orderSuccess" hidden>
+        <div class="success-icon">✓</div>
+        <h4>تم تجهيز طلبك بنجاح!</h4>
+        <p id="orderSuccessMsg"></p>
+        <div class="success-actions">
+          <a href="#" target="_blank" rel="noopener" class="btn btn-primary" id="whatsappFallbackLink">
+            إرسال لـ 01152798726
+          </a>
+          <a href="#" target="_blank" rel="noopener" class="btn btn-outline" id="whatsappFallbackLink2">
+            إرسال لـ 01130837894
+          </a>
+          <button type="button" class="btn btn-ghost" id="doneSuccessBtn">إغلاق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- إشعار Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
